@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 2000px;
+    border: 2px solid #b36d61;
+    background-color: #a98175;
+}
