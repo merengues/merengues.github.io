@@ -1,1 +1,1 @@
-I'm looking for a job and will close this page when I'm officially on the job.
+I'm looking for a job and will close this page when I get a official offer.
