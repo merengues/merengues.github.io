@@ -39,7 +39,7 @@
         <div class="page-content">
             <header id="site_header" class="header mobile-menu-hide">
                 <div class="header-content">
-                    <div class="header-photo"><img src="img/main_photo.jpg" alt="Merengue_Lii"></div>
+                    <div class="header-photo"><img id="ori" src="img/main_photo.jpg" alt="Merengue_Lii"></div>
                     <div class="header-titles">
                         <h2>Merengues_Lii</h2>
                         <h4>Electrical Engineer </h4>
@@ -66,7 +66,7 @@
                         <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
                     </ul>
                 </div> -->
-                <div class="header-buttons"><a href="#" target="_blank" class="btn btn-primary">Contact Me</a></div>
+                <div class="header-buttons"><a class="btn btn-primary" onmouseover="xian()" onmouseout="hou()">Contact Me</a></div>
                 <div class="copyrights">© 2021 All rights reserved.</div>
             </header><!-- Mobile Navigation -->
             <div class="menu-toggle"><span></span><span></span><span></span></div><!-- End Mobile Navigation -->
@@ -842,6 +842,16 @@
     <script src="js/jquery.googlemap.js"></script>
     <script src="js/validator.js"></script>
     <script src="js/main.js"></script>
+    <script type="text/javascript">
+        function xian()
+        {
+            document.getElementById("ori").src="img/main_wechat.jpg";
+        }
+        function hou()
+        {
+            document.getElementById("ori").src="img/main_photo.jpg";
+        }
+    </script>
 </body>
 
 </html>
